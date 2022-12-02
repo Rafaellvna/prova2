@@ -38,6 +38,16 @@ function listar_por_categoria(categoria) {
 }
 console.log(listar_por_categoria("Eletrônico"))
 
+function listar_por_valor(valor_minimo, valor_maximo) {
+    produtos.forEach(p => {
+        if (valor_maximo == p.valor) {
+            console.log(p) }
+    })
+}
+
+console.log(listar_por_categoria("Eletrônico"))
+console.log(listar_por_valor(""))
+
 
 
 
